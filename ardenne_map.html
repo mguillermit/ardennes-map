@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8c1a5be91e9db39b078158ff50894a96 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8c1a5be91e9db39b078158ff50894a96" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8c1a5be91e9db39b078158ff50894a96 = L.map(
+                "map_8c1a5be91e9db39b078158ff50894a96",
+                {
+                    center: [50.3, 5.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_92c51de995415d7453b994ff9088db85 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8c1a5be91e9db39b078158ff50894a96);
+        
+    
+            var marker_812936429be39561686d3d1b5df929ac = L.marker(
+                [50.2416, 5.6368],
+                {}
+            ).addTo(map_8c1a5be91e9db39b078158ff50894a96);
+        
+    
+        var popup_166ef61f3d1899a336e6c6b9a74950db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_379bf06fdad227cdb8674622eccf6c9f = $(`<div id="html_379bf06fdad227cdb8674622eccf6c9f" style="width: 100.0%; height: 100.0%;"><a href="https://www.ardenneresidences.com/fr/gite-ardennes/au-rocher-noir/" target="_blank">Au Rocher Noir</a></div>`)[0];
+            popup_166ef61f3d1899a336e6c6b9a74950db.setContent(html_379bf06fdad227cdb8674622eccf6c9f);
+        
+
+        marker_812936429be39561686d3d1b5df929ac.bindPopup(popup_166ef61f3d1899a336e6c6b9a74950db)
+        ;
+
+        
+    
+    
+            marker_812936429be39561686d3d1b5df929ac.bindTooltip(
+                `<div>
+                     Au Rocher Noir
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9ce63bce5938190fed906d142ef351b = L.marker(
+                [50.3498, 5.4517],
+                {}
+            ).addTo(map_8c1a5be91e9db39b078158ff50894a96);
+        
+    
+        var popup_71b434829879c6ed7b00a84e1c26be0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45e2043fd4d7d712bae0628e59238f4e = $(`<div id="html_45e2043fd4d7d712bae0628e59238f4e" style="width: 100.0%; height: 100.0%;"><a href="https://www.ardenneresidences.com/fr/gite-ardennes/la-cour-vendome/" target="_blank">La Cour Vendôme</a></div>`)[0];
+            popup_71b434829879c6ed7b00a84e1c26be0d.setContent(html_45e2043fd4d7d712bae0628e59238f4e);
+        
+
+        marker_f9ce63bce5938190fed906d142ef351b.bindPopup(popup_71b434829879c6ed7b00a84e1c26be0d)
+        ;
+
+        
+    
+    
+            marker_f9ce63bce5938190fed906d142ef351b.bindTooltip(
+                `<div>
+                     La Cour Vendôme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b45f04e7294016a394ef1540cc1c8e40 = L.marker(
+                [50.4206, 5.7568],
+                {}
+            ).addTo(map_8c1a5be91e9db39b078158ff50894a96);
+        
+    
+        var popup_aae8614cc3e001a15223019e3282917f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3961654c13c3c4864b4e0482a619ff06 = $(`<div id="html_3961654c13c3c4864b4e0482a619ff06" style="width: 100.0%; height: 100.0%;"><a href="https://www.ardenneresidences.com/fr/gite-ardennes/horizon-boise/" target="_blank">Horizon Boisé</a></div>`)[0];
+            popup_aae8614cc3e001a15223019e3282917f.setContent(html_3961654c13c3c4864b4e0482a619ff06);
+        
+
+        marker_b45f04e7294016a394ef1540cc1c8e40.bindPopup(popup_aae8614cc3e001a15223019e3282917f)
+        ;
+
+        
+    
+    
+            marker_b45f04e7294016a394ef1540cc1c8e40.bindTooltip(
+                `<div>
+                     Horizon Boisé
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_586406b5a88a6624b71cd576b2aee244 = L.marker(
+                [50.4793, 5.6752],
+                {}
+            ).addTo(map_8c1a5be91e9db39b078158ff50894a96);
+        
+    
+        var popup_bd517cda052daa98fcb44340fcbf9ff8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_467bf787817294bd96ee3872312d3ba5 = $(`<div id="html_467bf787817294bd96ee3872312d3ba5" style="width: 100.0%; height: 100.0%;"><a href="https://www.ardenneresidences.com/fr/gite-ardennes/bergerie-du-pouhon/" target="_blank">Bergerie du Pouhon</a></div>`)[0];
+            popup_bd517cda052daa98fcb44340fcbf9ff8.setContent(html_467bf787817294bd96ee3872312d3ba5);
+        
+
+        marker_586406b5a88a6624b71cd576b2aee244.bindPopup(popup_bd517cda052daa98fcb44340fcbf9ff8)
+        ;
+
+        
+    
+    
+            marker_586406b5a88a6624b71cd576b2aee244.bindTooltip(
+                `<div>
+                     Bergerie du Pouhon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f7a484a1cbaca95ad4249d76a5396c1 = L.marker(
+                [50.4809, 5.9813],
+                {}
+            ).addTo(map_8c1a5be91e9db39b078158ff50894a96);
+        
+    
+        var popup_88862088f5476c2d9f9475b6231558fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6edbf0aac7bebf81f39d41292349986 = $(`<div id="html_b6edbf0aac7bebf81f39d41292349986" style="width: 100.0%; height: 100.0%;"><a href="https://www.booking.com/hotel/be/le-randonneur.fr.html" target="_blank">Le Randonneur</a></div>`)[0];
+            popup_88862088f5476c2d9f9475b6231558fb.setContent(html_b6edbf0aac7bebf81f39d41292349986);
+        
+
+        marker_5f7a484a1cbaca95ad4249d76a5396c1.bindPopup(popup_88862088f5476c2d9f9475b6231558fb)
+        ;
+
+        
+    
+    
+            marker_5f7a484a1cbaca95ad4249d76a5396c1.bindTooltip(
+                `<div>
+                     Le Randonneur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8644c72bda33edc20bc3939dbdbeb27 = L.marker(
+                [50.1107, 4.9701],
+                {}
+            ).addTo(map_8c1a5be91e9db39b078158ff50894a96);
+        
+    
+        var popup_552239979db8ee85ccd1f085f7794b46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6341613f3a2f6f1cce2cb997631a2797 = $(`<div id="html_6341613f3a2f6f1cce2cb997631a2797" style="width: 100.0%; height: 100.0%;"><a href="https://www.booking.com/hotel/be/les-confidences-de-messire-sanglier.fr.html" target="_blank">Les Confidences de Messire Sanglier</a></div>`)[0];
+            popup_552239979db8ee85ccd1f085f7794b46.setContent(html_6341613f3a2f6f1cce2cb997631a2797);
+        
+
+        marker_f8644c72bda33edc20bc3939dbdbeb27.bindPopup(popup_552239979db8ee85ccd1f085f7794b46)
+        ;
+
+        
+    
+    
+            marker_f8644c72bda33edc20bc3939dbdbeb27.bindTooltip(
+                `<div>
+                     Les Confidences de Messire Sanglier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
